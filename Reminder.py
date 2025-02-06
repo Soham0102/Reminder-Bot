@@ -1,7 +1,8 @@
 import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
-from apscheduler.schedulers.asyncio_helper import AsyncIOScheduler
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
 
 from apscheduler.schedulers.background import BackgroundScheduler
 import datetime
